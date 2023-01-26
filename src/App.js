@@ -1,6 +1,13 @@
 import './App.css'
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
-import Navbar from './components/Navbar'
+import Navbar from './components/Navbar';
+import Consulting from './components/pages/Consulting';
+import Home from './components/pages/Home';
+import Service from './components/pages/Service';
+import ContactUs from './components/pages/ContactUs';
+import Product from './components/pages/Product';
+import Marketing from './components/pages/Marketing';
+import SignUp from './components/pages/SignUp';
 
 
 
