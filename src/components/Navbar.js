@@ -11,9 +11,16 @@ function Navbar () {
     const [dropdown, setDropdown] = useState(false)
 
     const hadnleClick = () => setClick(!click);
-
     const closeMobileMenu = () => setClick(false);
-
+    
+    const onMouseEnter = () => {
+       if(window.innerWidth < 960) {
+           setDropdown(true);
+       } 
+       else {
+           setDropdown(false);
+       }
+    };
     return (
         <nav className='navbar'>
            <Link to='/' className="navbar-logo">
