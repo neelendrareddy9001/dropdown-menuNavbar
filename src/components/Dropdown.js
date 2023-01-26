@@ -1,7 +1,7 @@
 import React, {useState} from 'react'
 import {MenuItem} from './MenuItem'
 import {Link} from 'react-router-dom'
-import './Dropdown'
+import './Dropdown.css'
 
 
 function Dropdown () {
