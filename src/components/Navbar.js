@@ -21,6 +21,15 @@ function Navbar () {
            setDropdown(false);
        }
     };
+    
+    const onMouseLeave = () => {
+       if(window.innerWidth < 960) {
+           setDropdown(false);
+       } 
+       else {
+           setDropdown(false);
+       }
+    };
     return (
         <nav className='navbar'>
            <Link to='/' className="navbar-logo">
